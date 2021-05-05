@@ -1,0 +1,14 @@
+Você recebeu um arquivo de texto com os dados de vendas da empresa. Precisamos criar uma maneira para que estes dados sejam importados para um banco de dados.
+
+Sua tarefa é criar uma interface web que aceite upload de arquivos, normalize os dados e armazene-os no banco de dados.
+
+Sua aplicação web DEVE:
+
+Aceitar (via um formulário) o upload de arquivos text, com dados separados por TAB testar o aplicativo usando o arquivo fornecido. A primeira linha do arquivo tem o nome das colunas. Você pode assumir que as colunas estarão sempre nesta ordem, e que sempre haverá uma linha de cabeçalho. Um arquivo de exemplo chamado 'dados.txt' está incluído neste repositório;
+Interpretar ("parsear") o arquivo recebido, normalizar os dados, e salvar corretamente a informação em um banco de dados relacional;
+Exibir todos os registros importados, bem como a receita bruta total dos registros contidos no arquivo enviado após o upload + parser;
+Se sua vaga é para PHP, deve ser escrita obrigatoriamente em: PHP 7.4 ou superior(sem frameworks) e MySQL;
+Ser simples de configurar e rodar a partir das instruções fornecidas;
+Funcionando em ambiente Linux ou Windows. Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas;
+Ter uma boa aparecia e ser fácil de usar;
+Pontos positvos para o uso das tecnologias: Docker, Bootstrap, MVC e Dotenv.
